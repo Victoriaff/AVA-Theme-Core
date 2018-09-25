@@ -7,11 +7,9 @@
   margin: 4px 0 2px 0 !important;
   cursor: default;
   top: 5px;
-  width: 100px;
-}
+  width: 100px; }
 .redux-container-text input {
-  clear: left;
-}
+  clear: left; }
 .redux-container-text .input_wrapper {
   display: block;
   position: relative;
@@ -26,13 +24,11 @@
   -moz-box-sizing: border-box;
   -o-box-sizing: border-box;
   box-sizing: border-box;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 .wp-customizer .redux-container-text .input_wrapper {
   width: 100%;
   max-width: 100%;
-  height: auto;
-}
+  height: auto; }
 
 /*# sourceMappingURL=field_text.css.map */

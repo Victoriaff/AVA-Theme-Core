@@ -1,28 +1,23 @@
 .redux-container-editor .mceLayout td {
   border-width: 1px;
   margin: 0;
-  padding: 1px;
-}
+  padding: 1px; }
 .redux-container-editor input,
 .redux-container-editor textarea {
-  margin: inherit;
-}
+  margin: inherit; }
 .redux-container-editor textarea {
   border-style: none;
   border: 0;
-  border-width: 0;
-}
+  border-width: 0; }
 .redux-container-editor .wp-editor-container {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  border-radius: 3px;
-}
-.redux-container-editor .wp-editor-container textarea {
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-  border-style: inherit;
-}
+  border-radius: 3px; }
+  .redux-container-editor .wp-editor-container textarea {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border-style: inherit; }
 .redux-container-editor .quicktags-toolbar input {
   margin: 2px 1px 4px;
   line-height: 18px;
@@ -39,7 +34,6 @@
   background-image: -webkit-linear-gradient(bottom, #e3e3e3, #fff);
   background-image: -moz-linear-gradient(bottom, #e3e3e3, #fff);
   background-image: -o-linear-gradient(bottom, #e3e3e3, #fff);
-  background-image: linear-gradient(to top, #e3e3e3, #fff);
-}
+  background-image: linear-gradient(to top, #e3e3e3, #fff); }
 
 /*# sourceMappingURL=field_editor.css.map */

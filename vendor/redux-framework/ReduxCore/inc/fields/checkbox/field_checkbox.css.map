@@ -1,1 +1,7 @@
-{"version":3,"sourceRoot":"","sources":["field_checkbox.scss"],"names":[],"mappings":"AACI;EACI;EACA;;AAEA;EACI;EACA;EACA;EACA","file":"field_checkbox.css"}
+{
+"version": 3,
+"mappings": "AACI,+BAAM;EACF,cAAc,EAAE,GAAG;EACnB,KAAK,EAAE,IAAI;EAEX,2CAAY;IACR,UAAU,EAAE,CAAC;IACb,KAAK,EAAE,IAAI;IACX,KAAK,EAAE,GAAG;IACV,KAAK,EAAE,IAAI",
+"sources": ["field_checkbox.scss"],
+"names": [],
+"file": "field_checkbox.css"
+}

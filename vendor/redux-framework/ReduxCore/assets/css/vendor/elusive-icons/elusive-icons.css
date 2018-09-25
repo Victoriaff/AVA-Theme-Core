@@ -4,12 +4,11 @@
  *  License - http://elusiveicons.com/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 @font-face {
-  font-family: "Elusive-Icons";
+  font-family: 'Elusive-Icons';
   src: url("fonts/elusiveicons-webfont.eot?v=2.0.0");
   src: url("fonts/elusiveicons-webfont.eot?#iefix&v=2.0.0") format("embedded-opentype"), url("fonts/elusiveicons-webfont.woff?v=2.0.0") format("woff"), url("fonts/elusiveicons-webfont.ttf?v=2.0.0") format("truetype"), url("fonts/elusiveicons-webfont.svg?v=2.0.0#elusiveiconsregular") format("svg");
   font-weight: normal;
-  font-style: normal;
-}
+  font-style: normal; }
 .el {
   display: inline-block;
   font: normal normal normal 14px/1 "Elusive-Icons";
@@ -17,148 +16,118 @@
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  transform: translate(0, 0);
-}
+  transform: translate(0, 0); }
 
 .el-lg {
   font-size: 1.33333em;
   line-height: 0.75em;
-  vertical-align: -15%;
-}
+  vertical-align: -15%; }
 
 .el-2x {
-  font-size: 2em;
-}
+  font-size: 2em; }
 
 .el-3x {
-  font-size: 3em;
-}
+  font-size: 3em; }
 
 .el-4x {
-  font-size: 4em;
-}
+  font-size: 4em; }
 
 .el-5x {
-  font-size: 5em;
-}
+  font-size: 5em; }
 
 .el-fw {
   width: 1.28571em;
-  text-align: center;
-}
+  text-align: center; }
 
 .el-ul {
   padding-left: 0;
   margin-left: 2.14286em;
-  list-style-type: none;
-}
+  list-style-type: none; }
 
 .el-ul > li {
-  position: relative;
-}
+  position: relative; }
 
 .el-li {
   position: absolute;
   left: -2.14286em;
   width: 2.14286em;
   top: 0.14286em;
-  text-align: center;
-}
+  text-align: center; }
 
 .el-li.el-lg {
-  left: -1.85714em;
-}
+  left: -1.85714em; }
 
 .el-border {
-  padding: 0.2em 0.25em 0.15em;
+  padding: .2em .25em .15em;
   border: solid 0.08em #eee;
-  border-radius: 0.1em;
-}
+  border-radius: 0.1em; }
 
 .pull-right {
-  float: right;
-}
+  float: right; }
 
 .pull-left {
-  float: left;
-}
+  float: left; }
 
 .el.pull-left {
-  margin-right: 0.3em;
-}
+  margin-right: 0.3em; }
 
 .el.pull-right {
-  margin-left: 0.3em;
-}
+  margin-left: 0.3em; }
 
 .el-spin {
   -webkit-animation: el-spin 2s infinite linear;
-  animation: el-spin 2s infinite linear;
-}
+  animation: el-spin 2s infinite linear; }
 
 .el-pulse {
   -webkit-animation: el-spin 1s infinite steps(8);
-  animation: el-spin 1s infinite steps(8);
-}
+  animation: el-spin 1s infinite steps(8); }
 
 @-webkit-keyframes el-spin {
   0% {
     -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
+    transform: rotate(0deg); }
   100% {
     -webkit-transform: rotate(359deg);
-    transform: rotate(359deg);
-  }
-}
+    transform: rotate(359deg); } }
 @keyframes el-spin {
   0% {
     -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
+    transform: rotate(0deg); }
   100% {
     -webkit-transform: rotate(359deg);
-    transform: rotate(359deg);
-  }
-}
+    transform: rotate(359deg); } }
 .el-rotate-90 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
-}
+  transform: rotate(90deg); }
 
 .el-rotate-180 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
-  transform: rotate(180deg);
-}
+  transform: rotate(180deg); }
 
 .el-rotate-270 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   -webkit-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
-  transform: rotate(270deg);
-}
+  transform: rotate(270deg); }
 
 .el-flip-horizontal {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
   -webkit-transform: scale(-1, 1);
   -ms-transform: scale(-1, 1);
-  transform: scale(-1, 1);
-}
+  transform: scale(-1, 1); }
 
 .el-flip-vertical {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
   -webkit-transform: scale(1, -1);
   -ms-transform: scale(1, -1);
-  transform: scale(1, -1);
-}
+  transform: scale(1, -1); }
 
 :root .el-rotate-90, :root .el-rotate-180, :root .el-rotate-270, :root .el-flip-horizontal, :root .el-flip-vertical {
-  filter: none;
-}
+  filter: none; }
 
 .el-stack {
   position: relative;
@@ -166,1250 +135,939 @@
   width: 2em;
   height: 2em;
   line-height: 2em;
-  vertical-align: middle;
-}
+  vertical-align: middle; }
 
 .el-stack-1x, .el-stack-2x {
   position: absolute;
   left: 0;
   width: 100%;
-  text-align: center;
-}
+  text-align: center; }
 
 .el-stack-1x {
-  line-height: inherit;
-}
+  line-height: inherit; }
 
 .el-stack-2x {
-  font-size: 2em;
-}
+  font-size: 2em; }
 
 .el-inverse {
-  color: #fff;
-}
+  color: #fff; }
 
 .el-icon-address-book-alt:before, .el-address-book-alt:before {
-  content: "";
-}
+  content: "яДБ"; }
 
 .el-icon-address-book:before, .el-address-book:before {
-  content: "";
-}
+  content: "яДВ"; }
 
 .el-icon-adjust-alt:before, .el-adjust-alt:before {
-  content: "";
-}
+  content: "яДГ"; }
 
 .el-icon-adjust:before, .el-adjust:before {
-  content: "";
-}
+  content: "яДД"; }
 
 .el-icon-adult:before, .el-adult:before {
-  content: "";
-}
+  content: "яДЕ"; }
 
 .el-icon-align-center:before, .el-align-center:before {
-  content: "";
-}
+  content: "яДЖ"; }
 
 .el-icon-align-justify:before, .el-align-justify:before {
-  content: "";
-}
+  content: "яДЗ"; }
 
 .el-icon-align-left:before, .el-align-left:before {
-  content: "";
-}
+  content: "яДИ"; }
 
 .el-icon-align-right:before, .el-align-right:before {
-  content: "";
-}
+  content: "яДЙ"; }
 
 .el-icon-arrow-down:before, .el-arrow-down:before {
-  content: "";
-}
+  content: "яДК"; }
 
 .el-icon-arrow-left:before, .el-arrow-left:before {
-  content: "";
-}
+  content: "яДЛ"; }
 
 .el-icon-arrow-right:before, .el-arrow-right:before {
-  content: "";
-}
+  content: "яДМ"; }
 
 .el-icon-arrow-up:before, .el-arrow-up:before {
-  content: "";
-}
+  content: "яДН"; }
 
 .el-icon-asl:before, .el-asl:before {
-  content: "";
-}
+  content: "яДО"; }
 
 .el-icon-asterisk:before, .el-asterisk:before {
-  content: "";
-}
+  content: "яДП"; }
 
 .el-icon-backward:before, .el-backward:before {
-  content: "";
-}
+  content: "яДР"; }
 
 .el-icon-ban-circle:before, .el-ban-circle:before {
-  content: "";
-}
+  content: "яДС"; }
 
 .el-icon-barcode:before, .el-barcode:before {
-  content: "";
-}
+  content: "яДТ"; }
 
 .el-icon-behance:before, .el-behance:before {
-  content: "";
-}
+  content: "яДУ"; }
 
 .el-icon-bell:before, .el-bell:before {
-  content: "";
-}
+  content: "яДФ"; }
 
 .el-icon-blind:before, .el-blind:before {
-  content: "";
-}
+  content: "яДХ"; }
 
 .el-icon-blogger:before, .el-blogger:before {
-  content: "";
-}
+  content: "яДЦ"; }
 
 .el-icon-bold:before, .el-bold:before {
-  content: "";
-}
+  content: "яДЧ"; }
 
 .el-icon-book:before, .el-book:before {
-  content: "";
-}
+  content: "яДШ"; }
 
 .el-icon-bookmark-empty:before, .el-bookmark-empty:before {
-  content: "";
-}
+  content: "яДЩ"; }
 
 .el-icon-bookmark:before, .el-bookmark:before {
-  content: "";
-}
+  content: "яДЪ"; }
 
 .el-icon-brackets:before, .el-brackets:before {
-  content: "";
-}
+  content: "яДЫ"; }
 
 .el-icon-braille:before, .el-braille:before {
-  content: "";
-}
+  content: "яДЬ"; }
 
 .el-icon-briefcase:before, .el-briefcase:before {
-  content: "";
-}
+  content: "яДЭ"; }
 
 .el-icon-broom:before, .el-broom:before {
-  content: "";
-}
+  content: "яДЮ"; }
 
 .el-icon-brush:before, .el-brush:before {
-  content: "";
-}
+  content: "яДЯ"; }
 
 .el-icon-bulb:before, .el-bulb:before {
-  content: "";
-}
+  content: "яДа"; }
 
 .el-icon-bullhorn:before, .el-bullhorn:before {
-  content: "";
-}
+  content: "яДб"; }
 
 .el-icon-calendar-sign:before, .el-calendar-sign:before {
-  content: "";
-}
+  content: "яДв"; }
 
 .el-icon-calendar:before, .el-calendar:before {
-  content: "";
-}
+  content: "яДг"; }
 
 .el-icon-camera:before, .el-camera:before {
-  content: "";
-}
+  content: "яДд"; }
 
 .el-icon-car:before, .el-car:before {
-  content: "";
-}
+  content: "яДе"; }
 
 .el-icon-caret-down:before, .el-caret-down:before {
-  content: "";
-}
+  content: "яДж"; }
 
 .el-icon-caret-left:before, .el-caret-left:before {
-  content: "";
-}
+  content: "яДз"; }
 
 .el-icon-caret-right:before, .el-caret-right:before {
-  content: "";
-}
+  content: "яДи"; }
 
 .el-icon-caret-up:before, .el-caret-up:before {
-  content: "";
-}
+  content: "яДй"; }
 
 .el-icon-cc:before, .el-cc:before {
-  content: "";
-}
+  content: "яДк"; }
 
 .el-icon-certificate:before, .el-certificate:before {
-  content: "";
-}
+  content: "яДл"; }
 
 .el-icon-check-empty:before, .el-check-empty:before {
-  content: "";
-}
+  content: "яДм"; }
 
 .el-icon-check:before, .el-check:before {
-  content: "";
-}
+  content: "яДн"; }
 
 .el-icon-chevron-down:before, .el-chevron-down:before {
-  content: "";
-}
+  content: "яДо"; }
 
 .el-icon-chevron-left:before, .el-chevron-left:before {
-  content: "";
-}
+  content: "яДп"; }
 
 .el-icon-chevron-right:before, .el-chevron-right:before {
-  content: "";
-}
+  content: "яД░"; }
 
 .el-icon-chevron-up:before, .el-chevron-up:before {
-  content: "";
-}
+  content: "яД▒"; }
 
 .el-icon-child:before, .el-child:before {
-  content: "";
-}
+  content: "яД▓"; }
 
 .el-icon-circle-arrow-down:before, .el-circle-arrow-down:before {
-  content: "";
-}
+  content: "яД│"; }
 
 .el-icon-circle-arrow-left:before, .el-circle-arrow-left:before {
-  content: "";
-}
+  content: "яД┤"; }
 
 .el-icon-circle-arrow-right:before, .el-circle-arrow-right:before {
-  content: "";
-}
+  content: "яД╡"; }
 
 .el-icon-circle-arrow-up:before, .el-circle-arrow-up:before {
-  content: "";
-}
+  content: "яД╢"; }
 
 .el-icon-cloud-alt:before, .el-cloud-alt:before {
-  content: "";
-}
+  content: "яД╖"; }
 
 .el-icon-cloud:before, .el-cloud:before {
-  content: "";
-}
+  content: "яД╕"; }
 
 .el-icon-cog-alt:before, .el-cog-alt:before {
-  content: "";
-}
+  content: "яД╣"; }
 
 .el-icon-cog:before, .el-cog:before {
-  content: "";
-}
+  content: "яД║"; }
 
 .el-icon-cogs:before, .el-cogs:before {
-  content: "";
-}
+  content: "яД╗"; }
 
 .el-icon-comment-alt:before, .el-comment-alt:before {
-  content: "";
-}
+  content: "яД╝"; }
 
 .el-icon-comment:before, .el-comment:before {
-  content: "";
-}
+  content: "яД╜"; }
 
 .el-icon-compass-alt:before, .el-compass-alt:before {
-  content: "";
-}
+  content: "яД╛"; }
 
 .el-icon-compass:before, .el-compass:before {
-  content: "";
-}
+  content: "яД┐"; }
 
 .el-icon-credit-card:before, .el-credit-card:before {
-  content: "";
-}
+  content: "яЕА"; }
 
 .el-icon-css:before, .el-css:before {
-  content: "";
-}
+  content: "яЕБ"; }
 
 .el-icon-dashboard:before, .el-dashboard:before {
-  content: "";
-}
+  content: "яЕВ"; }
 
 .el-icon-delicious:before, .el-delicious:before {
-  content: "";
-}
+  content: "яЕГ"; }
 
 .el-icon-deviantart:before, .el-deviantart:before {
-  content: "";
-}
+  content: "яЕД"; }
 
 .el-icon-digg:before, .el-digg:before {
-  content: "";
-}
+  content: "яЕЕ"; }
 
 .el-icon-download-alt:before, .el-download-alt:before {
-  content: "";
-}
+  content: "яЕЖ"; }
 
 .el-icon-download:before, .el-download:before {
-  content: "";
-}
+  content: "яЕЗ"; }
 
 .el-icon-dribbble:before, .el-dribbble:before {
-  content: "";
-}
+  content: "яЕИ"; }
 
 .el-icon-edit:before, .el-edit:before {
-  content: "";
-}
+  content: "яЕЙ"; }
 
 .el-icon-eject:before, .el-eject:before {
-  content: "";
-}
+  content: "яЕК"; }
 
 .el-icon-envelope-alt:before, .el-envelope-alt:before {
-  content: "";
-}
+  content: "яЕЛ"; }
 
 .el-icon-envelope:before, .el-envelope:before {
-  content: "";
-}
+  content: "яЕМ"; }
 
 .el-icon-error-alt:before, .el-error-alt:before {
-  content: "";
-}
+  content: "яЕН"; }
 
 .el-icon-error:before, .el-error:before {
-  content: "";
-}
+  content: "яЕО"; }
 
 .el-icon-eur:before, .el-eur:before {
-  content: "";
-}
+  content: "яЕП"; }
 
 .el-icon-exclamation-sign:before, .el-exclamation-sign:before {
-  content: "";
-}
+  content: "яЕР"; }
 
 .el-icon-eye-close:before, .el-eye-close:before {
-  content: "";
-}
+  content: "яЕС"; }
 
 .el-icon-eye-open:before, .el-eye-open:before {
-  content: "";
-}
+  content: "яЕТ"; }
 
 .el-icon-facebook:before, .el-facebook:before {
-  content: "";
-}
+  content: "яЕУ"; }
 
 .el-icon-facetime-video:before, .el-facetime-video:before {
-  content: "";
-}
+  content: "яЕФ"; }
 
 .el-icon-fast-backward:before, .el-fast-backward:before {
-  content: "";
-}
+  content: "яЕХ"; }
 
 .el-icon-fast-forward:before, .el-fast-forward:before {
-  content: "";
-}
+  content: "яЕЦ"; }
 
 .el-icon-female:before, .el-female:before {
-  content: "";
-}
+  content: "яЕЧ"; }
 
 .el-icon-file-alt:before, .el-file-alt:before {
-  content: "";
-}
+  content: "яЕШ"; }
 
 .el-icon-file-edit-alt:before, .el-file-edit-alt:before {
-  content: "";
-}
+  content: "яЕЩ"; }
 
 .el-icon-file-edit:before, .el-file-edit:before {
-  content: "";
-}
+  content: "яЕЪ"; }
 
 .el-icon-file-new-alt:before, .el-file-new-alt:before {
-  content: "";
-}
+  content: "яЕЫ"; }
 
 .el-icon-file-new:before, .el-file-new:before {
-  content: "";
-}
+  content: "яЕЬ"; }
 
 .el-icon-file:before, .el-file:before {
-  content: "";
-}
+  content: "яЕЭ"; }
 
 .el-icon-film:before, .el-film:before {
-  content: "";
-}
+  content: "яЕЮ"; }
 
 .el-icon-filter:before, .el-filter:before {
-  content: "";
-}
+  content: "яЕЯ"; }
 
 .el-icon-fire:before, .el-fire:before {
-  content: "";
-}
+  content: "яЕа"; }
 
 .el-icon-flag-alt:before, .el-flag-alt:before {
-  content: "";
-}
+  content: "яЕб"; }
 
 .el-icon-flag:before, .el-flag:before {
-  content: "";
-}
+  content: "яЕв"; }
 
 .el-icon-flickr:before, .el-flickr:before {
-  content: "";
-}
+  content: "яЕг"; }
 
 .el-icon-folder-close:before, .el-folder-close:before {
-  content: "";
-}
+  content: "яЕд"; }
 
 .el-icon-folder-open:before, .el-folder-open:before {
-  content: "";
-}
+  content: "яЕе"; }
 
 .el-icon-folder-sign:before, .el-folder-sign:before {
-  content: "";
-}
+  content: "яЕж"; }
 
 .el-icon-folder:before, .el-folder:before {
-  content: "";
-}
+  content: "яЕз"; }
 
 .el-icon-font:before, .el-font:before {
-  content: "";
-}
+  content: "яЕи"; }
 
 .el-icon-fontsize:before, .el-fontsize:before {
-  content: "";
-}
+  content: "яЕй"; }
 
 .el-icon-fork:before, .el-fork:before {
-  content: "";
-}
+  content: "яЕк"; }
 
 .el-icon-forward-alt:before, .el-forward-alt:before {
-  content: "";
-}
+  content: "яЕл"; }
 
 .el-icon-forward:before, .el-forward:before {
-  content: "";
-}
+  content: "яЕм"; }
 
 .el-icon-foursquare:before, .el-foursquare:before {
-  content: "";
-}
+  content: "яЕн"; }
 
 .el-icon-friendfeed-rect:before, .el-friendfeed-rect:before {
-  content: "";
-}
+  content: "яЕо"; }
 
 .el-icon-friendfeed:before, .el-friendfeed:before {
-  content: "";
-}
+  content: "яЕп"; }
 
 .el-icon-fullscreen:before, .el-fullscreen:before {
-  content: "";
-}
+  content: "яЕ░"; }
 
 .el-icon-gallery:before, .el-gallery:before {
-  content: "";
-}
+  content: "яЕ▒"; }
 
 .el-icon-gbp:before, .el-gbp:before {
-  content: "";
-}
+  content: "яЕ▓"; }
 
 .el-icon-gift:before, .el-gift:before {
-  content: "";
-}
+  content: "яЕ│"; }
 
 .el-icon-github-text:before, .el-github-text:before {
-  content: "";
-}
+  content: "яЕ┤"; }
 
 .el-icon-github:before, .el-github:before {
-  content: "";
-}
+  content: "яЕ╡"; }
 
 .el-icon-glass:before, .el-glass:before {
-  content: "";
-}
+  content: "яЕ╢"; }
 
 .el-icon-glasses:before, .el-glasses:before {
-  content: "";
-}
+  content: "яЕ╖"; }
 
 .el-icon-globe-alt:before, .el-globe-alt:before {
-  content: "";
-}
+  content: "яЕ╕"; }
 
 .el-icon-globe:before, .el-globe:before {
-  content: "";
-}
+  content: "яЕ╣"; }
 
 .el-icon-googleplus:before, .el-googleplus:before {
-  content: "";
-}
+  content: "яЕ║"; }
 
 .el-icon-graph-alt:before, .el-graph-alt:before {
-  content: "";
-}
+  content: "яЕ╗"; }
 
 .el-icon-graph:before, .el-graph:before {
-  content: "";
-}
+  content: "яЕ╝"; }
 
 .el-icon-group-alt:before, .el-group-alt:before {
-  content: "";
-}
+  content: "яЕ╜"; }
 
 .el-icon-group:before, .el-group:before {
-  content: "";
-}
+  content: "яЕ╛"; }
 
 .el-icon-guidedog:before, .el-guidedog:before {
-  content: "";
-}
+  content: "яЕ┐"; }
 
 .el-icon-hand-down:before, .el-hand-down:before {
-  content: "";
-}
+  content: "яЖА"; }
 
 .el-icon-hand-left:before, .el-hand-left:before {
-  content: "";
-}
+  content: "яЖБ"; }
 
 .el-icon-hand-right:before, .el-hand-right:before {
-  content: "";
-}
+  content: "яЖВ"; }
 
 .el-icon-hand-up:before, .el-hand-up:before {
-  content: "";
-}
+  content: "яЖГ"; }
 
 .el-icon-hdd:before, .el-hdd:before {
-  content: "";
-}
+  content: "яЖД"; }
 
 .el-icon-headphones:before, .el-headphones:before {
-  content: "";
-}
+  content: "яЖЕ"; }
 
 .el-icon-hearing-impaired:before, .el-hearing-impaired:before {
-  content: "";
-}
+  content: "яЖЖ"; }
 
 .el-icon-heart-alt:before, .el-heart-alt:before {
-  content: "";
-}
+  content: "яЖЗ"; }
 
 .el-icon-heart-empty:before, .el-heart-empty:before {
-  content: "";
-}
+  content: "яЖИ"; }
 
 .el-icon-heart:before, .el-heart:before {
-  content: "";
-}
+  content: "яЖЙ"; }
 
 .el-icon-home-alt:before, .el-home-alt:before {
-  content: "";
-}
+  content: "яЖК"; }
 
 .el-icon-home:before, .el-home:before {
-  content: "";
-}
+  content: "яЖЛ"; }
 
 .el-icon-hourglass:before, .el-hourglass:before {
-  content: "";
-}
+  content: "яЖМ"; }
 
 .el-icon-idea-alt:before, .el-idea-alt:before {
-  content: "";
-}
+  content: "яЖН"; }
 
 .el-icon-idea:before, .el-idea:before {
-  content: "";
-}
+  content: "яЖО"; }
 
 .el-icon-inbox-alt:before, .el-inbox-alt:before {
-  content: "";
-}
+  content: "яЖП"; }
 
 .el-icon-inbox-box:before, .el-inbox-box:before {
-  content: "";
-}
+  content: "яЖР"; }
 
 .el-icon-inbox:before, .el-inbox:before {
-  content: "";
-}
+  content: "яЖС"; }
 
 .el-icon-indent-left:before, .el-indent-left:before {
-  content: "";
-}
+  content: "яЖТ"; }
 
 .el-icon-indent-right:before, .el-indent-right:before {
-  content: "";
-}
+  content: "яЖУ"; }
 
 .el-icon-info-circle:before, .el-info-circle:before {
-  content: "";
-}
+  content: "яЖФ"; }
 
 .el-icon-instagram:before, .el-instagram:before {
-  content: "";
-}
+  content: "яЖХ"; }
 
 .el-icon-iphone-home:before, .el-iphone-home:before {
-  content: "";
-}
+  content: "яЖЦ"; }
 
 .el-icon-italic:before, .el-italic:before {
-  content: "";
-}
+  content: "яЖЧ"; }
 
 .el-icon-key:before, .el-key:before {
-  content: "";
-}
+  content: "яЖШ"; }
 
 .el-icon-laptop-alt:before, .el-laptop-alt:before {
-  content: "";
-}
+  content: "яЖЩ"; }
 
 .el-icon-laptop:before, .el-laptop:before {
-  content: "";
-}
+  content: "яЖЪ"; }
 
 .el-icon-lastfm:before, .el-lastfm:before {
-  content: "";
-}
+  content: "яЖЫ"; }
 
 .el-icon-leaf:before, .el-leaf:before {
-  content: "";
-}
+  content: "яЖЬ"; }
 
 .el-icon-lines:before, .el-lines:before {
-  content: "";
-}
+  content: "яЖЭ"; }
 
 .el-icon-link:before, .el-link:before {
-  content: "";
-}
+  content: "яЖЮ"; }
 
 .el-icon-linkedin:before, .el-linkedin:before {
-  content: "";
-}
+  content: "яЖЯ"; }
 
 .el-icon-list-alt:before, .el-list-alt:before {
-  content: "";
-}
+  content: "яЖа"; }
 
 .el-icon-list:before, .el-list:before {
-  content: "";
-}
+  content: "яЖб"; }
 
 .el-icon-livejournal:before, .el-livejournal:before {
-  content: "";
-}
+  content: "яЖв"; }
 
 .el-icon-lock-alt:before, .el-lock-alt:before {
-  content: "";
-}
+  content: "яЖг"; }
 
 .el-icon-lock:before, .el-lock:before {
-  content: "";
-}
+  content: "яЖд"; }
 
 .el-icon-magic:before, .el-magic:before {
-  content: "";
-}
+  content: "яЖе"; }
 
 .el-icon-magnet:before, .el-magnet:before {
-  content: "";
-}
+  content: "яЖж"; }
 
 .el-icon-male:before, .el-male:before {
-  content: "";
-}
+  content: "яЖз"; }
 
 .el-icon-map-marker-alt:before, .el-map-marker-alt:before {
-  content: "";
-}
+  content: "яЖи"; }
 
 .el-icon-map-marker:before, .el-map-marker:before {
-  content: "";
-}
+  content: "яЖй"; }
 
 .el-icon-mic-alt:before, .el-mic-alt:before {
-  content: "";
-}
+  content: "яЖк"; }
 
 .el-icon-mic:before, .el-mic:before {
-  content: "";
-}
+  content: "яЖл"; }
 
 .el-icon-minus-sign:before, .el-minus-sign:before {
-  content: "";
-}
+  content: "яЖм"; }
 
 .el-icon-minus:before, .el-minus:before {
-  content: "";
-}
+  content: "яЖн"; }
 
 .el-icon-move:before, .el-move:before {
-  content: "";
-}
+  content: "яЖо"; }
 
 .el-icon-music:before, .el-music:before {
-  content: "";
-}
+  content: "яЖп"; }
 
 .el-icon-myspace:before, .el-myspace:before {
-  content: "";
-}
+  content: "яЖ░"; }
 
 .el-icon-network:before, .el-network:before {
-  content: "";
-}
+  content: "яЖ▒"; }
 
 .el-icon-off:before, .el-off:before {
-  content: "";
-}
+  content: "яЖ▓"; }
 
 .el-icon-ok-circle:before, .el-ok-circle:before {
-  content: "";
-}
+  content: "яЖ│"; }
 
 .el-icon-ok-sign:before, .el-ok-sign:before {
-  content: "";
-}
+  content: "яЖ┤"; }
 
 .el-icon-ok:before, .el-ok:before {
-  content: "";
-}
+  content: "яЖ╡"; }
 
 .el-icon-opensource:before, .el-opensource:before {
-  content: "";
-}
+  content: "яЖ╢"; }
 
 .el-icon-paper-clip-alt:before, .el-paper-clip-alt:before {
-  content: "";
-}
+  content: "яЖ╖"; }
 
 .el-icon-paper-clip:before, .el-paper-clip:before {
-  content: "";
-}
+  content: "яЖ╕"; }
 
 .el-icon-path:before, .el-path:before {
-  content: "";
-}
+  content: "яЖ╣"; }
 
 .el-icon-pause-alt:before, .el-pause-alt:before {
-  content: "";
-}
+  content: "яЖ║"; }
 
 .el-icon-pause:before, .el-pause:before {
-  content: "";
-}
+  content: "яЖ╗"; }
 
 .el-icon-pencil-alt:before, .el-pencil-alt:before {
-  content: "";
-}
+  content: "яЖ╝"; }
 
 .el-icon-pencil:before, .el-pencil:before {
-  content: "";
-}
+  content: "яЖ╜"; }
 
 .el-icon-person:before, .el-person:before {
-  content: "";
-}
+  content: "яЖ╛"; }
 
 .el-icon-phone-alt:before, .el-phone-alt:before {
-  content: "";
-}
+  content: "яЖ┐"; }
 
 .el-icon-phone:before, .el-phone:before {
-  content: "";
-}
+  content: "яЗА"; }
 
 .el-icon-photo-alt:before, .el-photo-alt:before {
-  content: "";
-}
+  content: "яЗБ"; }
 
 .el-icon-photo:before, .el-photo:before {
-  content: "";
-}
+  content: "яЗВ"; }
 
 .el-icon-picasa:before, .el-picasa:before {
-  content: "";
-}
+  content: "яЗГ"; }
 
 .el-icon-picture:before, .el-picture:before {
-  content: "";
-}
+  content: "яЗД"; }
 
 .el-icon-plane:before, .el-plane:before {
-  content: "";
-}
+  content: "яЗЕ"; }
 
 .el-icon-play-alt:before, .el-play-alt:before {
-  content: "";
-}
+  content: "яЗЖ"; }
 
 .el-icon-play-circle:before, .el-play-circle:before {
-  content: "";
-}
+  content: "яЗЗ"; }
 
 .el-icon-play:before, .el-play:before {
-  content: "";
-}
+  content: "яЗИ"; }
 
 .el-icon-plurk-alt:before, .el-plurk-alt:before {
-  content: "";
-}
+  content: "яЗЙ"; }
 
 .el-icon-plurk:before, .el-plurk:before {
-  content: "";
-}
+  content: "яЗК"; }
 
 .el-icon-plus-sign:before, .el-plus-sign:before {
-  content: "";
-}
+  content: "яЗЛ"; }
 
 .el-icon-plus:before, .el-plus:before {
-  content: "";
-}
+  content: "яЗМ"; }
 
 .el-icon-podcast:before, .el-podcast:before {
-  content: "";
-}
+  content: "яЗН"; }
 
 .el-icon-print:before, .el-print:before {
-  content: "";
-}
+  content: "яЗО"; }
 
 .el-icon-puzzle:before, .el-puzzle:before {
-  content: "";
-}
+  content: "яЗП"; }
 
 .el-icon-qrcode:before, .el-qrcode:before {
-  content: "";
-}
+  content: "яЗР"; }
 
 .el-icon-question-sign:before, .el-question-sign:before {
-  content: "";
-}
+  content: "яЗС"; }
 
 .el-icon-question:before, .el-question:before {
-  content: "";
-}
+  content: "яЗТ"; }
 
 .el-icon-quote-alt:before, .el-quote-alt:before {
-  content: "";
-}
+  content: "яЗУ"; }
 
 .el-icon-quote-right-alt:before, .el-quote-right-alt:before {
-  content: "";
-}
+  content: "яЗФ"; }
 
 .el-icon-quote-right:before, .el-quote-right:before {
-  content: "";
-}
+  content: "яЗХ"; }
 
 .el-icon-quotes:before, .el-quotes:before {
-  content: "";
-}
+  content: "яЗЦ"; }
 
 .el-icon-random:before, .el-random:before {
-  content: "";
-}
+  content: "яЗЧ"; }
 
 .el-icon-record:before, .el-record:before {
-  content: "";
-}
+  content: "яЗШ"; }
 
 .el-icon-reddit:before, .el-reddit:before {
-  content: "";
-}
+  content: "яЗЩ"; }
 
 .el-icon-redux:before, .el-redux:before {
-  content: "";
-}
+  content: "яЗЪ"; }
 
 .el-icon-refresh:before, .el-refresh:before {
-  content: "";
-}
+  content: "яЗЫ"; }
 
 .el-icon-remove-circle:before, .el-remove-circle:before {
-  content: "";
-}
+  content: "яЗЬ"; }
 
 .el-icon-remove-sign:before, .el-remove-sign:before {
-  content: "";
-}
+  content: "яЗЭ"; }
 
 .el-icon-remove:before, .el-remove:before {
-  content: "";
-}
+  content: "яЗЮ"; }
 
 .el-icon-repeat-alt:before, .el-repeat-alt:before {
-  content: "";
-}
+  content: "яЗЯ"; }
 
 .el-icon-repeat:before, .el-repeat:before {
-  content: "";
-}
+  content: "яЗа"; }
 
 .el-icon-resize-full:before, .el-resize-full:before {
-  content: "";
-}
+  content: "яЗб"; }
 
 .el-icon-resize-horizontal:before, .el-resize-horizontal:before {
-  content: "";
-}
+  content: "яЗв"; }
 
 .el-icon-resize-small:before, .el-resize-small:before {
-  content: "";
-}
+  content: "яЗг"; }
 
 .el-icon-resize-vertical:before, .el-resize-vertical:before {
-  content: "";
-}
+  content: "яЗд"; }
 
 .el-icon-return-key:before, .el-return-key:before {
-  content: "";
-}
+  content: "яЗе"; }
 
 .el-icon-retweet:before, .el-retweet:before {
-  content: "";
-}
+  content: "яЗж"; }
 
 .el-icon-reverse-alt:before, .el-reverse-alt:before {
-  content: "";
-}
+  content: "яЗз"; }
 
 .el-icon-road:before, .el-road:before {
-  content: "";
-}
+  content: "яЗи"; }
 
 .el-icon-rss:before, .el-rss:before {
-  content: "";
-}
+  content: "яЗй"; }
 
 .el-icon-scissors:before, .el-scissors:before {
-  content: "";
-}
+  content: "яЗк"; }
 
 .el-icon-screen-alt:before, .el-screen-alt:before {
-  content: "";
-}
+  content: "яЗл"; }
 
 .el-icon-screen:before, .el-screen:before {
-  content: "";
-}
+  content: "яЗм"; }
 
 .el-icon-screenshot:before, .el-screenshot:before {
-  content: "";
-}
+  content: "яЗн"; }
 
 .el-icon-search-alt:before, .el-search-alt:before {
-  content: "";
-}
+  content: "яЗо"; }
 
 .el-icon-search:before, .el-search:before {
-  content: "";
-}
+  content: "яЗп"; }
 
 .el-icon-share-alt:before, .el-share-alt:before {
-  content: "";
-}
+  content: "яЗ░"; }
 
 .el-icon-share:before, .el-share:before {
-  content: "";
-}
+  content: "яЗ▒"; }
 
 .el-icon-shopping-cart-sign:before, .el-shopping-cart-sign:before {
-  content: "";
-}
+  content: "яЗ▓"; }
 
 .el-icon-shopping-cart:before, .el-shopping-cart:before {
-  content: "";
-}
+  content: "яЗ│"; }
 
 .el-icon-shortcode:before, .el-shortcode:before {
-  content: "";
-}
+  content: "яЗ┤"; }
 
 .el-icon-signal:before, .el-signal:before {
-  content: "";
-}
+  content: "яЗ╡"; }
 
 .el-icon-skype:before, .el-skype:before {
-  content: "";
-}
+  content: "яЗ╢"; }
 
 .el-icon-slideshare:before, .el-slideshare:before {
-  content: "";
-}
+  content: "яЗ╖"; }
 
 .el-icon-smiley-alt:before, .el-smiley-alt:before {
-  content: "";
-}
+  content: "яЗ╕"; }
 
 .el-icon-smiley:before, .el-smiley:before {
-  content: "";
-}
+  content: "яЗ╣"; }
 
 .el-icon-soundcloud:before, .el-soundcloud:before {
-  content: "";
-}
+  content: "яЗ║"; }
 
 .el-icon-speaker:before, .el-speaker:before {
-  content: "";
-}
+  content: "яЗ╗"; }
 
 .el-icon-spotify:before, .el-spotify:before {
-  content: "";
-}
+  content: "яЗ╝"; }
 
 .el-icon-stackoverflow:before, .el-stackoverflow:before {
-  content: "";
-}
+  content: "яЗ╜"; }
 
 .el-icon-star-alt:before, .el-star-alt:before {
-  content: "";
-}
+  content: "яЗ╛"; }
 
 .el-icon-star-empty:before, .el-star-empty:before {
-  content: "";
-}
+  content: "яЗ┐"; }
 
 .el-icon-star:before, .el-star:before {
-  content: "";
-}
+  content: "яИА"; }
 
 .el-icon-step-backward:before, .el-step-backward:before {
-  content: "";
-}
+  content: "яИБ"; }
 
 .el-icon-step-forward:before, .el-step-forward:before {
-  content: "";
-}
+  content: "яИВ"; }
 
 .el-icon-stop-alt:before, .el-stop-alt:before {
-  content: "";
-}
+  content: "яИГ"; }
 
 .el-icon-stop:before, .el-stop:before {
-  content: "";
-}
+  content: "яИД"; }
 
 .el-icon-stumbleupon:before, .el-stumbleupon:before {
-  content: "";
-}
+  content: "яИЕ"; }
 
 .el-icon-tag:before, .el-tag:before {
-  content: "";
-}
+  content: "яИЖ"; }
 
 .el-icon-tags:before, .el-tags:before {
-  content: "";
-}
+  content: "яИЗ"; }
 
 .el-icon-tasks:before, .el-tasks:before {
-  content: "";
-}
+  content: "яИИ"; }
 
 .el-icon-text-height:before, .el-text-height:before {
-  content: "";
-}
+  content: "яИЙ"; }
 
 .el-icon-text-width:before, .el-text-width:before {
-  content: "";
-}
+  content: "яИК"; }
 
 .el-icon-th-large:before, .el-th-large:before {
-  content: "";
-}
+  content: "яИЛ"; }
 
 .el-icon-th-list:before, .el-th-list:before {
-  content: "";
-}
+  content: "яИМ"; }
 
 .el-icon-th:before, .el-th:before {
-  content: "";
-}
+  content: "яИН"; }
 
 .el-icon-thumbs-down:before, .el-thumbs-down:before {
-  content: "";
-}
+  content: "яИО"; }
 
 .el-icon-thumbs-up:before, .el-thumbs-up:before {
-  content: "";
-}
+  content: "яИП"; }
 
 .el-icon-time-alt:before, .el-time-alt:before {
-  content: "";
-}
+  content: "яИР"; }
 
 .el-icon-time:before, .el-time:before {
-  content: "";
-}
+  content: "яИС"; }
 
 .el-icon-tint:before, .el-tint:before {
-  content: "";
-}
+  content: "яИТ"; }
 
 .el-icon-torso:before, .el-torso:before {
-  content: "";
-}
+  content: "яИУ"; }
 
 .el-icon-trash-alt:before, .el-trash-alt:before {
-  content: "";
-}
+  content: "яИФ"; }
 
 .el-icon-trash:before, .el-trash:before {
-  content: "";
-}
+  content: "яИХ"; }
 
 .el-icon-tumblr:before, .el-tumblr:before {
-  content: "";
-}
+  content: "яИЦ"; }
 
 .el-icon-twitter:before, .el-twitter:before {
-  content: "";
-}
+  content: "яИЧ"; }
 
 .el-icon-universal-access:before, .el-universal-access:before {
-  content: "";
-}
+  content: "яИШ"; }
 
 .el-icon-unlock-alt:before, .el-unlock-alt:before {
-  content: "";
-}
+  content: "яИЩ"; }
 
 .el-icon-unlock:before, .el-unlock:before {
-  content: "";
-}
+  content: "яИЪ"; }
 
 .el-icon-upload:before, .el-upload:before {
-  content: "";
-}
+  content: "яИЫ"; }
 
 .el-icon-usd:before, .el-usd:before {
-  content: "";
-}
+  content: "яИЬ"; }
 
 .el-icon-user:before, .el-user:before {
-  content: "";
-}
+  content: "яИЭ"; }
 
 .el-icon-viadeo:before, .el-viadeo:before {
-  content: "";
-}
+  content: "яИЮ"; }
 
 .el-icon-video-alt:before, .el-video-alt:before {
-  content: "";
-}
+  content: "яИЯ"; }
 
 .el-icon-video-chat:before, .el-video-chat:before {
-  content: "";
-}
+  content: "яИа"; }
 
 .el-icon-video:before, .el-video:before {
-  content: "";
-}
+  content: "яИб"; }
 
 .el-icon-view-mode:before, .el-view-mode:before {
-  content: "";
-}
+  content: "яИв"; }
 
 .el-icon-vimeo:before, .el-vimeo:before {
-  content: "";
-}
+  content: "яИг"; }
 
 .el-icon-vkontakte:before, .el-vkontakte:before {
-  content: "";
-}
+  content: "яИд"; }
 
 .el-icon-volume-down:before, .el-volume-down:before {
-  content: "";
-}
+  content: "яИе"; }
 
 .el-icon-volume-off:before, .el-volume-off:before {
-  content: "";
-}
+  content: "яИж"; }
 
 .el-icon-volume-up:before, .el-volume-up:before {
-  content: "";
-}
+  content: "яИз"; }
 
 .el-icon-w3c:before, .el-w3c:before {
-  content: "";
-}
+  content: "яИи"; }
 
 .el-icon-warning-sign:before, .el-warning-sign:before {
-  content: "";
-}
+  content: "яИй"; }
 
 .el-icon-website-alt:before, .el-website-alt:before {
-  content: "";
-}
+  content: "яИк"; }
 
 .el-icon-website:before, .el-website:before {
-  content: "";
-}
+  content: "яИл"; }
 
 .el-icon-wheelchair:before, .el-wheelchair:before {
-  content: "";
-}
+  content: "яИм"; }
 
 .el-icon-wordpress:before, .el-wordpress:before {
-  content: "";
-}
+  content: "яИн"; }
 
 .el-icon-wrench-alt:before, .el-wrench-alt:before {
-  content: "";
-}
+  content: "яИо"; }
 
 .el-icon-wrench:before, .el-wrench:before {
-  content: "";
-}
+  content: "яИп"; }
 
 .el-icon-youtube:before, .el-youtube:before {
-  content: "";
-}
+  content: "яИ░"; }
 
 .el-icon-zoom-in:before, .el-zoom-in:before {
-  content: "";
-}
+  content: "яИ▒"; }
 
 .el-icon-zoom-out:before, .el-zoom-out:before {
-  content: "";
-}
+  content: "яИ▓"; }
 
 /*# sourceMappingURL=elusive-icons.css.map */

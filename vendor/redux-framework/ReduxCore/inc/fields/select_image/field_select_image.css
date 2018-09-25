@@ -2,8 +2,7 @@
   margin-top: 2px;
   margin-left: 5px;
   width: 100%;
-  margin-bottom: 0;
-}
+  margin-bottom: 0; }
 
 .redux-preview-image {
   max-height: 250px;
@@ -15,7 +14,6 @@
   -moz-border-radius: 3px;
   -khtml-border-radius: 3px;
   -webkit-border-radius: 3px;
-  border-radius: 3px;
-}
+  border-radius: 3px; }
 
 /*# sourceMappingURL=field_select_image.css.map */
