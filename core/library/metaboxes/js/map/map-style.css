@@ -1,0 +1,12 @@
+.cmb-type-spotter_custom_map .admin-map {
+	border: 1px solid #ddd;
+    box-sizing: border-box;
+    height: 400px;
+    margin: 5px 1px 1px;
+    width: 97%;
+}
+
+.cmb-type-spotter_custom_map .lat, 
+.cmb-type-spotter_custom_map .lng {
+	margin:5px 0;
+} 
