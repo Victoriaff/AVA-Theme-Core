@@ -23,7 +23,7 @@ class AVA_Theme_Modules {
 		do_action('ava_theme/modules/load/before', $this);
 		
 		$dir = AVA_THEMECORE_DIR . 'modules';
-		$cfg_modules = ava_theme_core()->config( 'modules' );
+		$cfg_modules = AVA_Theme_Core()->config( 'modules' );
 		
 		
 		$modules = glob( $dir . '/*', GLOB_ONLYDIR );

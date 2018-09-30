@@ -96,7 +96,7 @@ class AVA_Theme_Core {
 		 * Controllers
 		 */
 		$this->controller->modules = new AVA_Theme_Modules();
-		//$this->controller->posttypes = new AVA_Theme_PostTypes();
+		$this->controller->posttypes = new AVA_Theme_PostTypes();
 		//$this->controller->metaboxes = new AVA_Theme_Metaboxes();
 		//$this->controller->shortcodes = new AVA_Theme_Shortcodes();
 		//$this->controller->widgets = new AVA_Theme_Widgets();
@@ -287,16 +287,16 @@ class AVA_Theme_Core {
 	
 }
 
-if ( ! function_exists( 'ava_theme_core' ) ) {
-	function ava_theme_core() {
+if ( ! function_exists( 'AVA_Theme_Core' ) ) {
+	function AVA_Theme_Core() {
 		return AVA_Theme_Core::instance();
 	}
 }
-ava_theme_core()->init();
+AVA_Theme_Core()->init();
 
 //require_once _EHPLUGIN_DIR_ . '/core/library/metaboxes/eh-mb-users.php';
 //require_once _EHPLUGIN_DIR_ . '/core/library/metaboxes/init.php';
 
 add_action('shutdown', function() {
-	//dump(ava_theme_core()->posttypes);
+	//dump(AVA_Theme_Core()->posttypes);
 });

@@ -48,8 +48,8 @@ if ( ! class_exists( 'AVA_Theme_Module' ) ) {
 					
 					if ( class_exists( $className ) && empty($this->posttypes[$posttype]) ) {
 						$this->posttypes[$posttype] = new $className();
-						
-						ava_theme_core()->posttypes[$posttype] = $this->posttypes[$posttype];
+
+						AVA_Theme_Core()->posttypes[$posttype] = $this->posttypes[$posttype];
 					}
 				}
 			}
